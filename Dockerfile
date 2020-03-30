@@ -55,7 +55,7 @@ RUN cd /simutrans-server-docker && \
 	
 ##Let's install a default pak and some default settings 
 RUN cd / && \ 
-	curl -L -o simupak64.zip https://downloads.sourceforge.net/project/simutrans/pak64/120-2/simupak64-120-2.zip && \ 
+	curl -L -o simupak64.zip https://sourceforge.net/projects/simutrans/files/pak64/121-0/simupak64-121-0.zip && \ 
 	unzip simupak64.zip && \
 	mv /simutrans-server-docker/serversave.sve /simutrans/save/
 	
